@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Delicious Bootstrap Template - Index</title>
+  <title>Guest Nutrition</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -26,13 +26,17 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Delicious - v4.10.0
-  * Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <script>
+      function showPopup(element) {
+        var popup = element.nextElementSibling;
+        popup.style.display = "block";
+      }
+  
+      function closePopup(element) {
+        var popup = element.parentNode.parentNode;
+        popup.style.display = "none";
+      }
+    </script>
 </head>
 
 <body>
@@ -113,7 +117,12 @@
                   Carbohydrates: 20g,
                   Vitamins and minerals: 25% daily value
                   <br>
-                  <a href="#" onclick="showPopup(this)">read more</a>     
+                  <!--HTML code-->
+                  <a id="readMore" href="#" onclick="showPopup(this)">Read More</a>
+                  <div id="popup" style="display: none;">
+                    <button onclick="closePopup(this)">Close</button>
+                    <img src="./assets/img/gnc.jpeg" id="image" width="100%">
+                  </div>               
                 </div>
        
                   <div class="popup">
@@ -149,7 +158,11 @@
                   Carbohydrates: 20g,
                   Vitamins and minerals: 25% daily value
                   <br>
-                  <a href="#" onclick="showPopup(this)">read more</a>     
+                  <a id="readMore" href="#" onclick="showPopup(this)">Read More</a>
+                  <div id="popup" style="display: none;">
+                    <button onclick="closePopup(this)">Close</button>
+                    <img src="./assets/img/gnc.jpeg" id="image" width="100%">
+                  </div>    
                 </div>
               
                   <div class="popup">
@@ -185,7 +198,11 @@
                   Carbohydrates: 20g,
                   Vitamins and minerals: 25% daily value
                   <br>
-                  <a href="#" onclick="showPopup(this)">read more</a>     
+                  <a id="readMore" onclick="showPopup()">Read More</a>
+                  <div id="popup" style="display: none;">
+                    <button onclick="closePopup()">Close</button>
+                    <img src="./assets/img/gnc.jpeg" id="image" width="100%">
+                  </div>      
                 </div>
         
                 <div class="popup">
@@ -221,7 +238,11 @@
                   Carbohydrates: 20g,
                   Vitamins and minerals: 25% daily value
                   <br>
-                  <a href="#" onclick="showPopup(this)">read more</a>     
+                  <a id="readMore" onclick="showPopup()">Read More</a>
+                  <div id="popup" style="display: none;">
+                    <button onclick="closePopup()">Close</button>
+                    <img src="./assets/img/gnc.jpeg" id="image" width="100%">
+                  </div>   
                 </div>
          
                   <div class="popup">
@@ -257,7 +278,11 @@
                   Carbohydrates: 20g,
                   Vitamins and minerals: 25% daily value
                   <br>
-                  <a href="#" onclick="showPopup(this)">read more</a>     
+                  <a id="readMore" href="#" onclick="showPopup()">Read More</a>
+                  <div id="popup" style="display: none;">
+                    <button onclick="closePopup()">Close</button>
+                    <img src="./assets/img/gnc.jpeg" id="image" width="100%">
+                  </div>     
                 </div>
          
                   <div class="popup">
@@ -286,7 +311,11 @@
                   Carbohydrates: 20g,
                   Vitamins and minerals: 25% daily value
                   <br>
-                  <a href="#" onclick="showPopup(this)">read more</a>     
+                  <a id="readMore" href="#" onclick="showPopup()">Read More</a>
+                  <div id="popup" style="display: none;">
+                    <button onclick="closePopup()">Close</button>
+                    <img src="./assets/img/gnc.jpeg" id="image" width="100%">
+                  </div>     
                 </div>
        
                   <div class="popup">
@@ -322,7 +351,11 @@
                   Carbohydrates: 20g,
                   Vitamins and minerals: 25% daily value
                   <br>
-                  <a href="#" onclick="showPopup(this)">read more</a>     
+                  <a id="readMore" href="#" onclick="showPopup()">Read More</a>
+                  <div id="popup" style="display: none;">
+                    <button onclick="closePopup()">Close</button>
+                    <img src="./assets/img/gnc.jpeg" id="image" width="100%">
+                  </div>     
                 </div>
       
                   <div class="popup">
@@ -358,7 +391,11 @@
                   Carbohydrates: 20g,
                   Vitamins and minerals: 25% daily value
                   <br>
-                  <a href="#" onclick="showPopup(this)">read more</a>     
+                  <a id="readMore" href="#" onclick="showPopup()">Read More</a>
+                  <div id="popup" style="display: none;">
+                    <button onclick="closePopup()">Close</button>
+                    <img src="./assets/img/gnc.jpeg" id="image" width="100%">
+                  </div>      
                 </div>
                 <div class="popup">
                   <div class="popup-content">
@@ -392,7 +429,11 @@
                   Carbohydrates: 20g,
                   Vitamins and minerals: 25% daily value
                   <br>
-                  <a href="#" onclick="showPopup(this)">read more</a>              
+                  <a id="readMore" href="#" onclick="showPopup()">Read More</a>
+                  <div id="popup" style="display: none;">
+                    <button onclick="closePopup()">Close</button>
+                    <img src="./assets/img/gnc.jpeg" id="image" width="100%">
+                  </div>               
                 </div>
            
                   <div class="popup">

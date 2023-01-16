@@ -17,7 +17,7 @@ var canvasElements = document.querySelectorAll('canvas');
 canvasElements.forEach(function(canvasElement) {
     var ctx = canvasElement.getContext('2d');
     var chart = new Chart(ctx, {
-        type: 'line',
+        type: 'table',
         data: {
             labels: ['Calories', 'Fat', 'Protein', 'Carbohydrates', 'Vitamins and minerals'],
             datasets: [{

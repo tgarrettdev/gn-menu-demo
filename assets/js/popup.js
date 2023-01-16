@@ -1,17 +1,17 @@
-function showPopup(element) {
-    event.preventDefault();
-    const menuItem = element.parentElement.parentElement.parentElement;
-    const popup = menuItem.querySelector('.popup');
-    const popupBackdrop = menuItem.querySelector('.popup-backdrop');
-    popup.style.display = 'block';
-    popupBackdrop.style.display = 'block';
-  }
+//JavaScript code
+function showPopup() {
+  var popup = document.getElementById("popup");
+  var readMore = document.getElementById("readMore");
+  var img = document.getElementById("image");
+  popup.style.display = "block";
+  readMore.style.display = "none";
+}
 
-  // Define the popupClose function
-  function popupClose(element) {
-    const menuItem = element.parentElement.parentElement.parentElement;
-    const popup = menuItem.querySelector('.popup');
-    const popupBackdrop = menuItem.querySelector('.popup-backdrop');
-    popup.style.display = 'none';
-    popupBackdrop.style.display = 'none';
-  }
+function closePopup() {
+  var popup = document.getElementById("popup");
+  var readMore = document.getElementById("readMore");
+  popup.style.display = "none";
+  readMore.style.display = "block";
+}
+
+

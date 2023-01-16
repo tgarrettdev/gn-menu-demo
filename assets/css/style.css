@@ -287,18 +287,6 @@ input[type="radio"]:checked {
   z-index: 10;
 }
 
-.popup-backdrop {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 80%;
-  z-index: 5;
-}
-
 .popup-close {
   width: 25%;
   opacity: 100%;
